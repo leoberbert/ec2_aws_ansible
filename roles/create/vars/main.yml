@@ -1,0 +1,11 @@
+---
+# vars file for create
+
+instance_type: t2.micro
+security_group: dev
+aws_access_key: <<CHANGE_YOUR_ACCESS>>
+aws_secret_key: <<CHANGE_YOUR_ACCESS>>
+image: ami-0323c3dd2da7fb37d
+keypair: dev-ansible
+region: us-east-1
+count: 1
